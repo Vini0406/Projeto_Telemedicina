@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .lg-check{
+    
+    width: 1.5rem;
+    height: 1.5rem;
+    top: -0.3rem;    
+  }
+
+  .cursor-pointer{
+    cursor: pointer;
+  }
+
+  .idsTable {
+    font-size: 0.9rem;
+    color: #555;
+  }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Painel E-Health</title>
+  
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Data Tabel -->
+  <link rel="stylesheet" type="text/css" href="vendor/DataTables/datatables.min.css" />
+ 
+
+
+  <!-- Custom styles -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading bg-light text-primary"><i class="fas fa-laptop-medical mr-2"></i>Painel E-Health</div>
+      <div class="list-group list-group-flush">
+        <a href="#" style="cursor: default;" onclick="return(false)"
+          class="list-group-item list-group-item-action bg-dark text-white"><i
+            class="fas fa-user-plus mr-2"></i>Cadastros</a>
+        <a href="Medico.php" class="list-group-item list-group-item-action bg-light"><i
+            class="fas fa-user-md mr-2"></i>Médicos</a>
+        <a href="Pacientes.php" class="list-group-item list-group-item-action bg-light"><i
+            class="fas fa-user-injured mr-2"></i>Pacientes</a>
+        <a href="Consultas.php" class="list-group-item list-group-item-action bg-light"><i
+            class="fas fa-stethoscope mr-2"></i>Consultas</a>
+        <a href="#" style="cursor: default;" onclick="return(false)"
+          class="list-group-item list-group-item-action bg-dark text-white"><i
+            class="fas fa-binoculars mr-2"></i>Buscas</a>
+        <a href="HistoricoMedico.php" class="list-group-item list-group-item-action bg-light"><i
+            class="fas fa-id-card mr-2"></i>Histórico
+          Médico</a>
+        <a href="HistoricoPaciente.php" class="list-group-item list-group-item-action bg-light"><i class="far fa-id-card mr-2"></i>Histórico
+          Paciente</a>
+        <a href="index.php" class="list-group-item list-group-item-action bg-dark text-white mt-5"><i
+            class="fas fa-sign-out-alt mr-2"></i>Log-out</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-default" id="menu-toggle"><span class="navbar-toggler-icon"></span></button>
+      </nav>
+
+
